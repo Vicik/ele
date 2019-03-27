@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>饿了么商品列表</title>
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="css/elem.css">
+    <link rel="stylesheet" href="css/product.css">
+    <script src="./js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- 页面导航 -->
+        <div id="header"></div>
+        <div class="info clear"></div>
+    </div>
+    <main class="clear">
+        <div class="shop clear">
+            <div class="shopnav">
+                <div class="shopnav_left lt">
+                    <a href="" class="active">所有商品</a>
+                    <a href="">评价</a>
+                    <a href="">资质</a>
+                    <span>
+                        <a href="">默认排序</a>
+                        <a href="">评分 <i class="iconfont icon-xiangxia"></i></a>
+                        <a href="">销量 <i class="iconfont icon-xiangxia"></i></a>
+                        <a href="">价格 <i class="iconfont icon-xiangxia"></i></a>
+                        <a class="shopnav_left_display" title="以网格显示" href="">
+                            <i class="iconfont icon-wangge"></i>
+                        </a>
+                        <a class="shopnav_left_display" title="以列表显示" href="">
+                            <i class="iconfont icon-liebiao"></i>
+                        </a>
+                    </span>
+                </div>
+                <form class="shopnav_right">
+                    <input type="text" name="pname" placeholder="搜索商家、美食...">
+                    <a href=""><i class="iconfont icon-sousuo"></i></a>
+                </form> 
+            </div>
+        </div>
+        <div class="main_shop">
+            <div class="main_shop_container">
+                <div class="main_shop_nav">
+                    <a href="#popular">热销</a>
+                    <a href="#cheap">优惠</a>
+                    <a href="">点餐必读</a>
+                    <a href="">天天特价</a>
+                    <a href="">暖心套餐+++</a>
+                    <a href="">暖心甜粥</a>
+                    <a href="">暖心养生粥</a>
+                    <a href="">暖心素粥</a>
+                    <a href="">暖心海鲜粥</a>
+                    <a href="">暖心面点</a>
+                    <a href="">暖心小吃</a>
+                </div>
+                <div class="main_shop_product">
+                    <div id="popular"></div>
+                </div>
+            </div>
+            <aside class="shop_extra">
+                <div class="notice">
+                    <h3>商家公告</h3>
+                    <p>本店优先配送饿了么外卖订单，欢迎各位顾客到饿了么下单，谢谢</p>
+                </div>
+                <div class="fee">
+                    <h5>配送说明</h5>
+                    <span></span>
+                </div>
+                <div class="extra_info">
+                    <p>
+                        <i class="iconfont icon-promisse"></i>
+                        该商户食品安全已由国泰产险承担，食品安全有保障
+                    </p>
+                    <a href="">举报商家</a>
+                </div>
+            </aside>
+        </div>
+    </main>
+    <footer class="clear">
+        <div class="container">
+            <!--公司简介-->
+            <ul class="footer-main">
+                <li><a href="open.html" class="open">我要开店</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">服务条款和协议</a></li>
+                <li><a href="#">隐私政策</a></li>
+                <li><a href="#">营业执照</a></li>
+                <li><a href="#">加入我们</a></li>
+                <li><a href="#">蜂鸟配送</a></li>
+                <li><a href="#">失信人员查询</a></li>
+            </ul>
+            <p>互联网药品信息服务资格证书:<a href="#">(沪)-经营性-2016-0011</a> | 增值电信业务许可证 :<a href="#">沪B2-20150033</a> | <a href="#">沪ICP备 09007032</a> | <a href="#">上海工商行政管理</a> Copyright ©2008-2018 上海拉扎斯信息科技有限公司, All Rights Reserved.</p>
+            <a href="#" class="footer-footer"><img src="img/picp_bg.e373b3.jpg"/></a>
+        </div>
+    </footer>
+    <!-- 购物车 -->
+    <div class="shop_cart">
+        <h5>
+            购物车
+            <a href="">[清空]</a>
+            <a href=""><i class="iconfont icon-gouwuchejiahaojian rt"></i></a>
+        </h5>
+        <ul></ul>
+        <div class="shop_end">
+            <a href="" class="total">
+                <i class="iconfont icon-qicheqianlian-"></i>
+                <sup></sup>
+                <small>￥<big>0</big></small>
+                <span>|配送费￥<b>0</b></span>
+            </a>
+            <a href="" class="closing_cost">去结算></a>
+        </div>
+    </div>
+    <script src="./js/add.js"></script>
+    <script src="./js/product.js"></script>
+</body>
+</html>

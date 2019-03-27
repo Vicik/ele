@@ -1,0 +1,75 @@
+/*蓝色部分的内容区*/
+header{
+	width: 100%;
+	height: 500px;
+	background: #008de1;
+}
+main{
+	margin: 0 auto;
+	padding-top: 150px;
+	width: 1200px;
+}
+/*搜索区*/
+main>img{
+	display: block;
+	margin: 0 auto;
+}
+div.search{
+	margin: 80px auto;
+	width: 710px;
+}
+.search>form>select,
+.search>form>input,
+.search>form>button{
+	vertical-align: middle;
+	height: 64px;
+	font-size: 20px;
+	border: 0;
+	outline: none;
+}
+.search>form>select{
+	padding: 0 15px;
+}
+.search>form>input{
+	padding: 0 15px 0 20px;
+	font-size: 18px;
+	width: 420px;
+}
+.search>form>button{
+	margin-left: 10px;
+	width: 150px;
+	background-color: #f74342;
+	color: #fff;
+}
+/*二维码区域*/
+.code{
+	width: 160px;
+	height: 166px;
+	padding: 15px;
+	border: 1px solid #ddd;
+	position: relative;
+}
+.code img{
+	width: 100%;
+}
+.code span{
+	color: #adadad;
+	position: absolute;
+	font-size: 14px;
+	background-color: #fff;
+	bottom: -8px;
+	left: 35px;
+}
+.code-describe{
+	margin-left: 20px;
+	font-size: 16px;
+	color: #414141;
+	margin-top: 30px;
+}
+.code-describe p{
+	margin: 5px 0;
+}
+.code-describe strong{
+	font-size: 30px;
+	color: #f74342;
+}

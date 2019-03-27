@@ -1,0 +1,292 @@
+body{
+    background: #F7F7F7;
+}
+/* 头部导航 */
+.header{
+    height: 130px;
+    background: #0089DC;
+    color: #fff;
+}
+.header nav{
+    height: 30px;
+    border-bottom: 1px solid #027ECB;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 29px;
+}
+.nav_header{
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav_header a{
+    color: #fff;
+}
+.header_left i{
+    font-weight: 600;
+    position: relative;
+    top: 2px;
+}
+.header .nav_main{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.header_right{
+    position: relative;
+}
+.header_right>.personal{
+    padding: 5px;
+    position: absolute;
+    right: 0px;
+    top: 25px;
+    width: 100px;
+    display: none;
+}
+.header_right:hover .personal{
+    display: block;
+}
+.personal a{
+    color: #333;
+}
+.main_left a img{
+    width: 140px;
+}
+.main_left>span{
+    font-size: 24px;
+    padding-left: 30px;
+    position: relative;
+    top: -8px;
+}
+.main_left>span::before{
+    content: "";
+    width: 1px;
+    height: 24px;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    background: #fff;
+}
+/* 页面主体 */
+main{
+    width: 1200px;
+    margin: 12px auto 50px;
+}
+/* 订单详情 */
+.cart_list{
+    width: 400px;
+    border: 1px solid #E0E0E0;
+    background-color: #fff;
+    float: left;
+}
+.cart_list .list_header{
+    height: 60px;
+    line-height: 60px;
+    padding: 0 22px;
+    border-bottom: 1px solid #eee;
+}
+.cart_list .list_header a{
+    font-size: 12px;
+    color: #9C9E9C;
+}
+.list_info{
+    padding: 20px 22px;
+    border-bottom: 1px solid #eee;
+}
+.list_info>ul{
+    margin-bottom: 30px;
+}
+.list_info>ul>li{
+    float: right;
+    font-size: 12px;
+    color: #9FA19F;
+}
+.list_info>ul>li:first-child{
+    float: left;
+}
+.list_info>ul>li:nth-child(3){
+    margin-right: 62px;
+}
+/* 商品列表与购物车的样式类似 */
+.list{
+    padding: 0 15px;
+    font-size: 14px;
+    color: #9B9C9A;
+    background-color: #FCFAF8;
+}
+.list li{
+    height: 44px;
+    line-height: 44px;
+    padding: 0 7px;
+    border-bottom: 1px solid #ddd;
+}
+.list li:last-child{
+    border: 0;
+}
+.list li p{
+    width: 150px;
+}
+.list li>div,
+.list li>span{
+    width: 70px;
+}
+.list li>div{
+    margin-left: 50px; 
+}
+.list li>span{
+    text-align: right;
+}
+.list li>div button,
+.list li>div input{
+    float: left;
+    margin-top: 12px;
+}
+.list li>div button{
+    background-color: #fff;
+    height: 20px;
+    width: 20px;
+    line-height: 18px;
+    border: 1px solid #ddd;
+    outline: 0;
+    cursor: pointer;
+    color: #666;
+}
+.list li>div input{
+    border: 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    height: 20px;
+    width: 30px;
+    line-height: 20px;
+    font-size: 12px;
+    text-align: center;
+    outline: 0;
+    color: #666;
+}
+.fee{
+    padding: 20px 22px;
+    color: #9C9E9C;
+    font-size: 12px;
+}
+.fee .box{
+    margin-top: 20px;
+}
+.fee>.total{
+    margin-top: 50px;
+    text-align: right;
+}
+.fee>.total>p{
+    color: #F74342;
+    font-size: 36px;
+}
+.fee>.total>p>small{
+    font-size: 24px;
+}
+/* 收货地址等信息 */
+.cart_info{
+    width: 760px;
+    float: right;
+    border: 1px solid #E0E0E0;
+    background: #fff;
+    padding:0 22px 50px;
+}
+.cart_info>button{
+    width: 120px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: #f00;
+    color: #fff;
+}
+.msg{
+    margin-top: 30px;
+}
+.msg div a{
+    float: right;
+    color: #5A94E5;
+    text-decoration: underline;
+    font-size: 14px;
+}
+.msg_info{
+    border: 1px solid #5A94E5;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding: 10px 0 10px 22px;
+    color: #9B9C9A;
+    position: relative;
+}
+.msg_info i,
+.msg_info div{
+    display: inline-block;
+}
+.msg_info div{
+    border-left: 1px solid #eee;
+    padding-left: 20px;
+}
+.msg_info i:first-child{
+    padding-right: 20px;
+    position: relative;
+    top: -4px;
+    font-size: 40px;
+}
+.msg_info i:last-child{
+    font-size: 40px;
+    position: absolute;
+    right: -5px;
+    bottom: -7px;
+    color: #5A94E5
+}
+.msg_info a{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    display: none;
+    text-decoration: none;
+}
+.msg_info:hover{
+    cursor: pointer;
+}
+.msg_info:hover a{
+    display: block;
+}
+.msg>a{
+    color: #9B9C9A;
+    font-size: 14px;
+}
+.pay{
+    width: 400px;
+}
+.pay>.msg_info{
+    padding-left: 0;
+}
+.pay>div>span{
+    font-size: 12px;
+    padding-left: 20px;
+    color: #FF9C7B;
+}
+.extra>.msg_info{
+    padding: 0;
+    border: 0;
+    color: #5A5D5A;
+    font-size: 14px;
+}
+.extra>.msg_info>ul{
+    text-align: right;
+    padding: 0;
+    float: left;
+}
+.extra>.msg_info>ul:last-child{
+    text-align: left;
+    margin-left: 10px;
+}
+.extra>.msg_info li{
+    margin-bottom: 20px;
+}
+.extra>.msg_info li span{
+    color: #F74342;
+}
+.extra>.msg_info li input,
+.extra>.msg_info li select{
+    width: 100%;
+}

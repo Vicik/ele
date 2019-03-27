@@ -1,0 +1,40 @@
+img{
+  vertical-align: baseline;
+}
+main{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+main .login{
+	margin: 100px auto 0;
+	width: 450px;
+	background: #DE2121;
+	background-color: #ffffff40;
+}
+main h1{
+	margin-left: 50px;
+}
+main form>input{
+	margin-left: 80px;
+	margin-top: 20px;
+}
+.login .help-block{
+	display: inline-block;
+	width: 150px;
+	color: #DE2121;
+}
+.form-horizontal .has-feedback .form-control-feedback{
+	right: 170px;
+}
+#info{
+	margin-top: 10px;
+	color: #DE2121;
+}
+form .form-control{
+	display: inline-block;
+	width: 300px;
+}

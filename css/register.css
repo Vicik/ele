@@ -1,0 +1,53 @@
+nav {
+  z-index: 10;
+}
+main {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+main .container {
+  width: 600px;
+}
+img{
+  vertical-align: baseline;
+}
+h1 {
+  margin-bottom: 10px;
+}
+main .register {
+  margin: 50px auto;
+  width: 600px;
+  color: #333;
+  background-color: #ffffff40;
+}
+h1,
+#register{
+  margin-left: 180px;
+  margin-top: 10px;
+}
+.form-group .help-block {
+  font-size: 14px;
+  color: #DE2121;
+}
+form .form-control{
+	display: inline-block;
+	width: 300px;
+}
+form  .control-label{
+  width: 80px;
+}
+.checkbox{
+  position: relative;
+  top: -20px;
+  padding-left: 80px;
+}
+.register .help-block{
+	display: inline-block;
+	width: 200px;
+	color: #DE2121;
+}
+.form-horizontal .has-feedback .form-control-feedback{
+  right: 240px;
+  top: 0;
+}

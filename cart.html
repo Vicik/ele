@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="css/elem.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/add.js"></script>
+</head>
+<body>
+    <!-- 头部导航 -->
+    <header class="header">
+        <nav>
+            <div class="nav_header">
+                <div class="header_left lt">
+                    <span>当前位置：</span>
+                    <a href="">春熙路</a>
+                    <i class="iconfont icon-dayu"></i>
+                    <a href="">商家名字</a>
+                    <i class="iconfont icon-dayu"></i>
+                    <span>订单信息</span>
+                </div>
+                <div class="header_right rt"></div>
+            </div>
+        </nav>
+        <div class="nav_main">
+            <div class="main_left lt">
+                <a href="index.html">
+                    <img src="img/my_service.png" alt="">
+                </a>
+                <span>订单信息</span>
+            </div>
+            
+        </div>
+    </header>
+    <!-- 页面主体 -->
+    <main class="clear">
+        <!-- 订单详情 -->
+        <div class="cart_list clear">
+            <div class="list_header">
+                <h4 class="lt">订单详情</h4>
+                <a href="" class="rt">< 返回商家修改</a>
+            </div>
+            <div class="list_info">
+                <ul class="clear">
+                    <li class="lt">商品</li>
+                    <li>小计(元)</li>
+                    <li>份数</li>
+                </ul>
+                <h5>1号购物车</h5>
+            </div>
+            <ul class="list"></ul>
+            <div class="fee">
+                <div class="dis clear">
+                    <span class="lt">配送费</span>
+                    <span class="rt"></span>
+                </div>
+                <div class="box clear">
+                    <span class="lt">餐盒费</span>
+                    <span class="rt"></span>
+                </div>
+                <div class="total">
+                    <p></p>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <!-- 收货地址等信息 -->
+        <div class="cart_info">
+            <div class="msg">
+                <div class="clear">
+                    <h4 class="lt">收货地址</h4>
+                    <a href="">添加新地址</a>
+                </div>
+                <div class="msg_info clear">
+                    <i class="iconfont icon-ditutubiao"></i>
+                    <div>
+                        <p>用户姓名 先生 12345678901</p>
+                        <span>四川省天府广场</span>
+                    </div>
+                    <a href="">修改 ×</a>
+                    <i class="iconfont icon-gouxuan"></i>
+                </div>
+                <a href="">显示更多地址<i class="iconfont icon-down-trangle"></i></a>
+            </div>
+            <div class="msg pay">
+                <div class="clear">
+                    <h4 class="lt">付款方式</h4>
+                    <span>推荐使用在线支付，不用找零，优惠更多</span>
+                </div>
+                <div class="msg_info clear">
+                    <div>
+                        <p>在线支付</p>
+                        <span>支持微信、支付宝等</span>
+                    </div>
+                    <a href="">修改 ×</a>
+                    <i class="iconfont icon-gouxuan"></i>
+                </div>
+            </div>
+            <div class="msg extra">
+                <h4>选择优惠</h4>
+                <div class="msg_info clear">
+                    <ul>
+                        <li>使用红包</li>
+                        <li>使用优惠券</li>
+                    </ul>
+                    <ul>
+                        <li>无可用红包</li>
+                        <li>网站不支持<span>（仅手机客户端可用）</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="msg extra">
+                <h4>其他信息</h4>
+                <div class="msg_info clear">
+                    <ul>
+                        <li>配送方式</li>
+                        <li>发票信息</li>
+                        <li>订单备注</li>
+                        <li>餐具份数</li>
+                    </ul>
+                    <ul>
+                        <li>本订单由 [蜂鸟专送] 提供配送</li>
+                        <li>仅在饿了么APP中支持开发票哦</li>
+                        <li><input type="text"></li>
+                        <li>
+                            <select name="">
+                                <option value="0">未选择</option>
+                                <option value="1">1份</option>
+                                <option value="2">2份</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <button>确认下单</button>
+        </div>
+    </main>
+    <div id="footer"></div>
+    <script src="./js/cart.js"></script>
+</body>
+</html>

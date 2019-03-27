@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>饿了么商家列表</title>
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="css/elem.css">
+    <link rel="stylesheet" href="css/seller.css">
+    <script src="./js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <!-- 页面导航 -->
+    <div id="header"></div>
+    <!-- 主体 -->
+    <main>
+        <!-- 主体头部 -->
+        <div class="main_header clear">
+            <div class="location lt">
+                <span>当前位置:</span>
+                <a href="#" id="address">四川师范大学成龙校区</a>
+                <a href="#">[切换地区]</a>
+            </div>
+            <form>
+                <input type="text" name="pname" placeholder="搜索商家、美食...">
+                <a href=""><i class="iconfont icon-sousuo"></i></a>
+            </form>
+        </div>
+        <!-- 商家分类 -->
+        <div class="main_categories clear">
+            <span>商家分类:</span>
+            <ul>
+                <li><a href="#" class="active">全部商家</a></li>
+                <li><a href="#">美食</a></li>
+                <li><a href="#">快餐便当</a></li>
+                <li><a href="#">特色菜系</a></li>
+                <li><a href="#">异国料理</a></li>
+                <li><a href="#">小吃夜宵</a></li>
+                <li><a href="#">甜品饮品</a></li>
+                <li><a href="#">果蔬生鲜</a></li>
+                <li><a href="#">商店超市</a></li>
+                <li><a href="#">鲜花绿植</a></li>
+                <li><a href="#">医药健康</a></li>
+                <li><a href="#">早餐</a></li>
+                <li><a href="#">午餐</a></li>
+                <li><a href="#">下午茶</a></li>
+                <li><a href="#">晚餐</a></li>
+                <li><a href="#">夜宵</a></li>
+            </ul>
+        </div>
+        <!-- 没有登录时 -->
+        <!-- <div class="main_list">
+            <p>查看更多商家，请先<a href="#">登录</a></p>
+        </div> -->
+        <!-- 登录时 -->
+        <div class="main_list seller clear"></div>
+    </main>
+    <!-- 页脚 -->
+    <div id="footer"></div>
+    <script src="./js/add.js"></script>
+    <script src="./js/seller.js"></script>
+</body>
+</html>

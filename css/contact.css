@@ -1,0 +1,93 @@
+
+main .container{
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 30px;
+    color: #666;
+}
+.container .title,
+.container .active{
+    height: 60px;
+    line-height: 60px;
+}
+.container .title{
+    background: #eff8fb;
+    margin-bottom: 5px;
+}
+.container .title a{
+    color: #7ecaf3;
+}
+.container .title i{
+    margin: 0 15px;
+    font-size: 30px;
+}
+.container .title a:last-child{
+    float: right;
+}
+/*点击时的样式*/
+.container .active{
+    background: #f5f5f5;
+    margin-bottom: 5px;
+}
+.container .active a{
+    color: #999;
+    font-size: 30px;
+}
+.container .active a:last-child{
+    float: right;
+}
+/*内容区*/
+.container .content{
+    padding: 5px 20px 20px 20px;
+    font-size: 14px;
+}
+.unVisible{
+    display: none;
+}
+.container .content p{
+    margin-bottom: 15px;
+    line-height: 22px;
+}
+.container .content h2,
+.container .content h3,
+.container .content h4{
+    margin: 15px 0;
+}
+.container .content ul{
+    margin-bottom: 50px;
+    line-height: 26px;
+}
+.container .content ul a{
+    color: #1989fa;
+}
+.container .content ul span{
+    font-size: 18px;
+}
+.container .content ul img{
+    vertical-align: bottom;
+    margin-right: 18px;
+}
+.container .content ul:last-child{
+    margin-bottom: 0;
+}
+.container .content .spe{
+    margin: 10px 0;
+}
+.container .content article{
+    padding: 4px;
+    text-indent: 2em;
+    float: left;
+}
+.container .content article img{
+    width: 190px;
+    border: 1px solid #ddd;
+    float: left;
+    margin-right: 25px;
+}
+blockquote{
+    color: #999;
+    font-weight: 300;
+    border-left: 1px solid #1abc9c;
+    margin: 14px 42px 25px 28px;
+    padding-left: 14px;
+}
