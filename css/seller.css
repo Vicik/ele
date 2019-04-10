@@ -3,8 +3,8 @@ body{
 }
 /* 商家列表页面主体 */
 main{
-    width: 1200px;
     margin: 20px auto;
+    width: 1200px;
     font-size: 14px;
 }
 /* 主体头部 */
@@ -22,25 +22,25 @@ main{
     color: #1989fa;
 }
 .main_header form{
+    float: right;
     width: 300px;
     height: 40px;
     background: #fff;
-    float: right;
     border: 1px solid #aaa;
 }
 .main_header form input{
+    padding-left: 5px;
     width: 270px;
     height: 100%;
-    padding-left: 5px;
     border: 0;
     outline: 0;
 }
 /* 商家分类 */
 .main_categories{
     margin: 50px 0 20px 0; 
-    background: #fff;
-    width: 100%;
     padding: 5px 0 5px 10px;
+    width: 100%;
+    background: #fff;
     border: 1px solid #ddd;
     border-top-width: 2px;
 }
@@ -52,8 +52,8 @@ main{
 }
 .main_categories>ul {
     float: left;
-    width: 1080px;
     margin-left: 20px;
+    width: 1080px;
 }
 .main_categories ul li{
     display: inline-block;
@@ -90,9 +90,9 @@ main{
 .main_list>a{
     vertical-align: bottom;
     display: inline-block;
+    width: 295px;
     color: #666;
     border-bottom: 1px solid #eee;
-    width: 295px;
 }
 .main_list a:hover{
     background: #eee;
@@ -105,8 +105,8 @@ main{
     float: left;
 }
 .plist_left{
-    width: 110px;
     padding: 20px;
+    width: 110px;
     text-align: center;
 }
 .plist_left span{
@@ -117,9 +117,9 @@ main{
     font-size: 14px;
 }
 .plist_right h5{
+    margin-bottom: 6px;
     font-weight: 600;
     font-size: 16px;
-    margin-bottom: 6px;
 }
 .plist_right p{
     margin-top: 3px;

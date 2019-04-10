@@ -10,8 +10,8 @@ footer{
     background: #fff;
 }
 .shop .shopnav{
-    width: 1200px;
     margin: 0 auto;
+    width: 1200px;
 }
 .shop .shopnav_left{
     width: 900px;
@@ -21,10 +21,10 @@ footer{
     position: relative;
     display: inline-block;
     vertical-align: middle;
-    color: #333;
-    font-size: 16px;
     width: 102px;
     line-height: 57px;
+    color: #333;
+    font-size: 16px;
     text-align: center;
 }
 .shop .shopnav_left a::before{
@@ -42,61 +42,60 @@ footer{
 }
 .shop .shopnav_left>span>a{
     padding: 0 10px;
-    font-size: 14px;
     display: inline-block;
-    border-right: 1px solid #eee;
     vertical-align: middle;
+    font-size: 14px;
+    border-right: 1px solid #eee;
 }
 .shop .shopnav_left>span>a:last-child{
     border: 0;
 }
 .shop .shopnav_left>span a.shopnav_left_display{
-    border: 1px solid #eee;
     width: 32px;
     height: 32px;
     text-align: center;
     line-height: 32px;
+    border: 1px solid #eee;
 }
 .shop .shopnav_left>span a.shopnav_left_display i{
-    font-size: 20px;
     position: relative;
     left: -5px;
+    font-size: 20px;
 }
 form.shopnav_right{
     float: right;
+    margin-top: 13px;
+    position: relative;
     width: 250px;
     height: 32px;
-    margin-top: 13px;
     border: 1px solid #eee;
-    position: relative;
 }
 form.shopnav_right input{
+    padding-left: 10px;
     width: 220px;
     height: 100%;
-    padding-left: 10px;
     border: 0;
     outline: 0;
 }
 /* 商品主页 */
 .main_shop{
+    margin: 20px auto 0 auto;
     width: 1200px;
-    margin: 0 auto;
-    margin-top: 20px;
 }
 .main_shop>.main_shop_container{
-    width: 900px;
     float: left;
+    width: 900px;
 }
 .main_shop div.main_shop_nav{
     padding: 10px 15px 5px 15px;
     background: #fff;
 }
 .main_shop div.main_shop_nav a{
+    padding: 3px 10px;
+    margin: 5px;
     display: inline-block;
     width: 150px;
     height: 25px;
-    padding: 3px 10px;
-    margin: 5px;
     font-size: 14px;
     border-radius: 2px;
 }
@@ -136,9 +135,9 @@ form.shopnav_right input{
     border: 1px solid #eee;
 }
 .main_shop_product>#popular>p{
+    padding: 10px 0;
     text-align: center;
     background-color: #fff;
-    padding: 10px 0;
 }
 .product img,
 .product>div{
@@ -153,16 +152,15 @@ form.shopnav_right input{
     color: #aaa;
 }
 .product>div span i{
+    padding-right: 5px;
     color: #fff018;
     font-size: 12px;
-    padding-right: 5px;
 }
 .product>div>p{
     margin-top: 20px;
 }
 .product>div>p>a{
     float: right;
-    background: #2396ff;
     display: inline-block;
     width: 100px;
     height: 30px;
@@ -171,20 +169,21 @@ form.shopnav_right input{
     font-size: 12px;
     border-radius: 15px;
     text-align: center;
+    background: #2396ff;
 } 
 .product b{
     position: absolute;
+    display: none;
     right: 30px;
     top: 40px;
     font-size: 12px;
     color: #f00;
-    display: none;
     transition: all 0.5;
 }
 /* 侧边栏 */
 .shop_extra{
-    width: 280px;
     float: right;
+    width: 280px;
     font-size: 14px;
 }
 .shop_extra .notice{
@@ -194,10 +193,10 @@ form.shopnav_right input{
 .shop_extra .notice h3{
     padding: 0 15px;
     height: 45px;
+    line-height: 45px;
     font-weight: 500;
     background: #2396ff;
     color: #fff;
-    line-height: 45px;
 }
 .shop_extra .notice p{
     padding: 15px;
@@ -225,19 +224,19 @@ form.shopnav_right input{
 }
 /* 购物车 */
 .shop_cart{
-    width: 310px;
-    border: 0;
-    border-top: 2px solid #2396ff;
     position: fixed;
     right: 0;
     bottom: 0;
+    width: 310px;
+    border: 0;
+    border-top: 2px solid #2396ff;
     color: #666;
     background: #fff;
 }
 .shop_cart h5{
+    padding: 12px 10px;
     font-size: 16px;
     font-weight: normal;
-    padding: 12px 10px;
     border-bottom: 1px solid #ddd;
 }
 .shop_cart h5 a{
@@ -300,16 +299,16 @@ form.shopnav_right input{
     height: 46px;
 }
 .shop_cart>.shop_end a{
+    padding: 10px 12px;
     float: left;
     height: 46px;
-    padding: 10px 12px;
 }
 .shop_cart>div a.total{
+    position: relative;
     width: 200px;
     background: #333;
     color: #fff;
     font-size: 14px;
-    position: relative;
 }
 .shop_cart>div a.total i{
     font-size: 22px;
@@ -329,9 +328,9 @@ form.shopnav_right input{
     font-size: 22px;
 }
 .shop_cart>div a.total>span{
-    color: #999;
     position: relative;
     left: -3px;
+    color: #999;
 }
 .shop_cart>div a.closing_cost{
     width: 110px;

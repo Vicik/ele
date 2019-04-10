@@ -15,23 +15,23 @@ body{
     line-height: 29px;
 }
 .nav_header{
-    width: 1200px;
     margin: 0 auto;
+    width: 1200px;
 }
 .nav_header a{
     color: #fff;
 }
 .header_left i{
-    font-weight: 600;
     position: relative;
     top: 2px;
+    font-weight: 600;
 }
 .header .nav_main{
-    width: 1200px;
-    height: 100px;
     margin: 0 auto;
     display: flex;
     align-items: center;
+    width: 1200px;
+    height: 100px;
 }
 .header_right{
     position: relative;
@@ -54,36 +54,36 @@ body{
     width: 140px;
 }
 .main_left>span{
-    font-size: 24px;
     padding-left: 30px;
     position: relative;
     top: -8px;
+    font-size: 24px;
 }
 .main_left>span::before{
     content: "";
-    width: 1px;
-    height: 24px;
     position: absolute;
     bottom: 5px;
     left: 10px;
+    width: 1px;
+    height: 24px;
     background: #fff;
 }
 /* 页面主体 */
 main{
-    width: 1200px;
     margin: 12px auto 50px;
+    width: 1200px;
 }
 /* 订单详情 */
 .cart_list{
+    float: left;
     width: 400px;
     border: 1px solid #E0E0E0;
     background-color: #fff;
-    float: left;
 }
 .cart_list .list_header{
+    padding: 0 22px;
     height: 60px;
     line-height: 60px;
-    padding: 0 22px;
     border-bottom: 1px solid #eee;
 }
 .cart_list .list_header a{
@@ -116,9 +116,9 @@ main{
     background-color: #FCFAF8;
 }
 .list li{
+    padding: 0 7px;
     height: 44px;
     line-height: 44px;
-    padding: 0 7px;
     border-bottom: 1px solid #ddd;
 }
 .list li:last-child{
@@ -143,7 +143,6 @@ main{
     margin-top: 12px;
 }
 .list li>div button{
-    background-color: #fff;
     height: 20px;
     width: 20px;
     line-height: 18px;
@@ -151,13 +150,14 @@ main{
     outline: 0;
     cursor: pointer;
     color: #666;
+    background-color: #fff;
 }
 .list li>div input{
+    height: 20px;
+    width: 30px;
     border: 0;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
-    height: 20px;
-    width: 30px;
     line-height: 20px;
     font-size: 12px;
     text-align: center;
@@ -166,8 +166,8 @@ main{
 }
 .fee{
     padding: 20px 22px;
-    color: #9C9E9C;
     font-size: 12px;
+    color: #9C9E9C;
 }
 .fee .box{
     margin-top: 20px;
@@ -185,11 +185,11 @@ main{
 }
 /* 收货地址等信息 */
 .cart_info{
-    width: 760px;
+    padding:0 22px 50px;
     float: right;
+    width: 760px;
     border: 1px solid #E0E0E0;
     background: #fff;
-    padding:0 22px 50px;
 }
 .cart_info>button{
     width: 120px;
@@ -209,20 +209,20 @@ main{
     font-size: 14px;
 }
 .msg_info{
-    border: 1px solid #5A94E5;
+    position: relative;
     margin-top: 20px;
     margin-bottom: 5px;
     padding: 10px 0 10px 22px;
+    border: 1px solid #5A94E5;
     color: #9B9C9A;
-    position: relative;
 }
 .msg_info i,
 .msg_info div{
     display: inline-block;
 }
 .msg_info div{
-    border-left: 1px solid #eee;
     padding-left: 20px;
+    border-left: 1px solid #eee;
 }
 .msg_info i:first-child{
     padding-right: 20px;
@@ -231,10 +231,10 @@ main{
     font-size: 40px;
 }
 .msg_info i:last-child{
-    font-size: 40px;
     position: absolute;
     right: -5px;
     bottom: -7px;
+    font-size: 40px;
     color: #5A94E5
 }
 .msg_info a{
@@ -261,8 +261,8 @@ main{
     padding-left: 0;
 }
 .pay>div>span{
-    font-size: 12px;
     padding-left: 20px;
+    font-size: 12px;
     color: #FF9C7B;
 }
 .extra>.msg_info{
@@ -272,13 +272,13 @@ main{
     font-size: 14px;
 }
 .extra>.msg_info>ul{
-    text-align: right;
     padding: 0;
     float: left;
+    text-align: right;
 }
 .extra>.msg_info>ul:last-child{
-    text-align: left;
     margin-left: 10px;
+    text-align: left;
 }
 .extra>.msg_info li{
     margin-bottom: 20px;

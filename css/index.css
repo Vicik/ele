@@ -32,8 +32,8 @@ div.search{
 }
 .search>form>input{
 	padding: 0 15px 0 20px;
-	font-size: 18px;
 	width: 420px;
+	font-size: 18px;
 }
 .search>form>button{
 	margin-left: 10px;
@@ -43,28 +43,28 @@ div.search{
 }
 /*二维码区域*/
 .code{
+	padding: 15px;
+	position: relative;
 	width: 160px;
 	height: 166px;
-	padding: 15px;
 	border: 1px solid #ddd;
-	position: relative;
 }
 .code img{
 	width: 100%;
 }
 .code span{
-	color: #adadad;
 	position: absolute;
-	font-size: 14px;
-	background-color: #fff;
 	bottom: -8px;
 	left: 35px;
+	font-size: 14px;
+	background-color: #fff;
+	color: #adadad;
 }
 .code-describe{
 	margin-left: 20px;
+	margin-top: 30px;
 	font-size: 16px;
 	color: #414141;
-	margin-top: 30px;
 }
 .code-describe p{
 	margin: 5px 0;

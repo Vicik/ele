@@ -11,37 +11,6 @@ nav .nav-img{
 .active{
     border-bottom: 2px solid #fff;
 }
-/*二维码下单*/
-/*.shopping{*/
-    /*width: 220px;*/
-    /*border: 1px solid #ddd;*/
-    /*padding: 8px;*/
-    /*background: #fff;*/
-    /*position: absolute;*/
-    /*color: #333;*/
-    /*left: -90px;*/
-    /*top: 50px;*/
-    /*display: none;*/
-/*}*/
-/*nav li:hover .shopping{*/
-    /*display: block;*/
-/*}*/
-/*.shopping::before{*/
-    /*content: '';*/
-    /*border: 10px solid transparent;*/
-    /*border-bottom-color: #fff;*/
-    /*position: absolute;*/
-    /*top: -20px;*/
-    /*left: 110px;*/
-/*}*/
-/*.shopping h3{*/
-    /*margin-bottom: 10px;*/
-    /*height: 30px;*/
-    /*line-height: 30px;*/
-/*}*/
-/*.shopping img{*/
-    /*width: 200px;*/
-/*}*/
 /*主体部分*/
 .content{
     padding: 30px 50px;
@@ -50,29 +19,29 @@ nav .nav-img{
 header,
 main,
 footer{
+    margin: 0 auto;
     width: 1200px;
     background: #fff;
-    margin: 0 auto;
 }
 header{
+    padding-left: 20px;
     height: 60px;
     line-height: 60px;
-    padding-left: 20px;
 }
 header>span{
+    padding-left: 35px;
+    padding-right: 60px;
     display: inline-block;
     background: url("../img/my_service7.png") no-repeat 0 50%;
     -webkit-background-size: 24px;
     background-size: 24px;
-    padding-left: 35px;
-    padding-right: 60px;
 }
 header>a b{
-    font-weight: normal;
     padding: 0 8px;
     background: #62db70;
     color: #fff;
     font-size: 10px;
+    font-weight: normal;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
@@ -101,9 +70,9 @@ main>.main_question dl{
 }
 main dt img,
 footer img{
+    margin: 0 5px;
     width: 54px;
     height: 54px;
-    margin: 0 5px;
 }
 main>.main_question li{
     height: 30px;
